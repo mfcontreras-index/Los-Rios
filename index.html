@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Provincia de Los Ríos, Ecuador: historia, cantones, turismo y autoridades.">
+  <title>Los Ríos | Corazón agrícola del Ecuador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== MENÚ ===================== -->
+  <header class="navbar">
+    <a href="#inicio" class="logo"><img src="img/escudo.jpg" alt="Escudo de Los Ríos" onerror="this.style.display='none'"> Los <span>Ríos</span></a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#cantones">Cantones</a></li>
+        <li><a href="#turismo">Turismo</a></li>
+        <li><a href="#gastronomia">Gastronomía</a></li>
+        <li><a href="#autoridades">Autoridades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== PORTADA ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Ecuador · Región Costa</p>
+      <h1>Provincia de <span>Los Ríos</span></h1>
+      <p>Tierra montubia, de ríos caudalosos, cacao fino de aroma y campos verdes que alimentan al país.</p>
+      <a href="#historia" class="btn">Descubre más</a>
+    </div>
+  </section>
+
+  <!-- ===================== DATOS RÁPIDOS ===================== -->
+  <section class="datos">
+    <div class="dato"><h3>1860</h3><p>Año de creación<br>(6 de octubre)</p></div>
+    <div class="dato"><h3>13</h3><p>Cantones</p></div>
+    <div class="dato"><h3>≈ 7 200 km²</h3><p>Superficie</p></div>
+    <div class="dato"><h3>≈ 899 000</h3><p>Habitantes<br>(Censo 2022)</p></div>
+    <div class="dato"><h3>Babahoyo</h3><p>Capital provincial</p></div>
+  </section>
+
+  <!-- ===================== HISTORIA ===================== -->
+  <section id="historia" class="seccion">
+    <h2 class="titulo">Historia</h2>
+    <p class="subtitulo">De los pueblos ancestrales a la provincia agrícola más productiva del Ecuador</p>
+
+    <div class="historia-grid">
+      <div class="historia-img">
+        <img src="img/historia.jpg" alt="Río Babahoyo en la ciudad de Babahoyo" onerror="this.parentElement.classList.add('sin-img')">
+      </div>
+      <div class="historia-texto">
+        <p>
+          La provincia de <strong>Los Ríos</strong> está ubicada en el centro de la región Litoral del Ecuador.
+          Recibe su nombre por la gran cantidad de ríos que la atraviesan: <strong>Babahoyo, Vinces, Quevedo,
+          Catarama, Puebloviejo y Zapotal</strong>, entre otros, que forman parte de la cuenca del río Guayas.
+        </p>
+        <p>
+          Gracias a esa red fluvial y a sus suelos fértiles, Los Ríos se convirtió en el
+          <strong>corazón agrícola del país</strong>: aquí se cultiva cacao, banano, arroz, maíz, palma africana y soya.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="evento">
+        <span class="fecha">Época prehispánica</span>
+        <h4>Cultura Milagro-Quevedo</h4>
+        <p>Entre los años 500 y 1500 d.C. florecieron en la zona pueblos de la cultura Milagro-Quevedo,
+          hábiles orfebres y agricultores. Grupos como los <em>Babahoyos, Pimochas, Palenques y Chonanas</em>
+          habitaban las riberas de los ríos.</p>
+      </div>
+      <div class="evento">
+        <span class="fecha">Colonia</span>
+        <h4>Las Bodegas de Babahoyo</h4>
+        <p>Durante la Colonia, Babahoyo fue un puerto fluvial clave: allí se almacenaban las mercancías que
+          viajaban entre Guayaquil y la Sierra (Quito). Por eso se le conocía como <em>“Las Bodegas”</em>.</p>
+      </div>
+      <div class="evento">
+        <span class="fecha">Siglo XIX</span>
+        <h4>José Joaquín de Olmedo</h4>
+        <p>En su hacienda <strong>La Virginia</strong>, a orillas del río Babahoyo, el prócer y poeta José Joaquín de Olmedo
+          escribió el célebre poema <em>“La Victoria de Junín. Canto a Bolívar”</em>.</p>
+      </div>
+      <div class="evento">
+        <span class="fecha">6 de octubre de 1860</span>
+        <h4>Nace la provincia</h4>
+        <p>Durante el gobierno de Gabriel García Moreno se crea oficialmente la provincia de Los Ríos,
+          separándola de la jurisdicción de Guayas, con Babahoyo como capital.</p>
+      </div>
+      <div class="evento">
+        <span class="fecha">Fines s. XIX – inicios s. XX</span>
+        <h4>El auge cacaotero</h4>
+        <p>La “pepa de oro” (cacao) convirtió a Los Ríos en una de las zonas más ricas del país.
+          Las familias cacaoteras de <strong>Vinces</strong> viajaban a Europa y trajeron su arquitectura y costumbres,
+          por lo que a la ciudad se le llamó <em>“París chiquito”</em>.</p>
+      </div>
+      <div class="evento">
+        <span class="fecha">Siglo XX – hoy</span>
+        <h4>Banano, arroz y cultura montubia</h4>
+        <p>Tras la crisis del cacao llegó el auge bananero y arrocero. Hoy Los Ríos es orgullosamente
+          <strong>montubia</strong>: su identidad se expresa en los rodeos, amorfinos, música y gastronomía.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CANTONES ===================== -->
+  <section id="cantones" class="seccion fondo-claro">
+    <h2 class="titulo">Cantones</h2>
+    <p class="subtitulo">La provincia está dividida en 13 cantones</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-img"><img src="img/babahoyo.jpg" alt="Malecón de Babahoyo" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Babahoyo</h3>
+          <span class="etiqueta">Capital · Cabecera: Babahoyo</span>
+          <p>Capital provincial a orillas del río Babahoyo. Famosa por su malecón, sus regatas y la casa-hacienda de Olmedo.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/quevedo.jpg" alt="Ciudad de Quevedo y su río" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Quevedo</h3>
+          <span class="etiqueta">Cabecera: Quevedo</span>
+          <p>La ciudad más poblada y el gran centro comercial de la provincia. Conocida por su comunidad china y sus famosos chifas.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/vinces.jpg" alt="Réplica de la Torre Eiffel en Vinces" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Vinces</h3>
+          <span class="etiqueta">Cabecera: Vinces</span>
+          <p>El “París chiquito”: réplica de la Torre Eiffel, casonas de la época cacaotera y un hermoso malecón.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/ventanas.jpg" alt="Cantón Ventanas" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Ventanas</h3>
+          <span class="etiqueta">Cabecera: Ventanas</span>
+          <p>Reconocida como la “capital maicera del Ecuador” por su gran producción de maíz.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/baba.jpg" alt="Cantón Baba" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Baba</h3>
+          <span class="etiqueta">Cabecera: Baba</span>
+          <p>Uno de los cantones más antiguos. Parte del humedal Abras de Mantequilla se encuentra en su territorio.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/montalvo.jpg" alt="Cantón Montalvo" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Montalvo</h3>
+          <span class="etiqueta">Cabecera: Montalvo</span>
+          <p>Cantón agrícola al pie de las estribaciones andinas, con ríos y balnearios de agua dulce.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/puebloviejo.jpg" alt="Cantón Puebloviejo" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Puebloviejo</h3>
+          <span class="etiqueta">Cabecera: Puebloviejo</span>
+          <p>Tierra arrocera y bananera, atravesada por el río que lleva su nombre.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/urdaneta.jpg" alt="Catarama, cantón Urdaneta" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Urdaneta</h3>
+          <span class="etiqueta">Cabecera: Catarama</span>
+          <p>Su cabecera, Catarama, se levanta junto al río del mismo nombre. Zona de cacao, arroz y banano.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/palenque.jpg" alt="Cantón Palenque" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Palenque</h3>
+          <span class="etiqueta">Cabecera: Palenque</span>
+          <p>Debe su nombre al pueblo ancestral de los Palenques. Cerca se encuentra el Bosque Protector Jauneche.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/buenafe.jpg" alt="Cantón Buena Fe" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Buena Fe</h3>
+          <span class="etiqueta">Cabecera: San Jacinto de Buena Fe</span>
+          <p>Cantón joven y dinámico al norte de la provincia, productor de banano, cacao y palma.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/valencia.jpg" alt="Cantón Valencia" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Valencia</h3>
+          <span class="etiqueta">Cabecera: Valencia</span>
+          <p>Zona de clima más fresco, cercana a Cotopaxi; destaca por sus ríos, cascadas y producción agrícola.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/mocache.jpg" alt="Cantón Mocache" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Mocache</h3>
+          <span class="etiqueta">Cabecera: Mocache</span>
+          <p>Cantón ribereño del río Quevedo, de tradición montubia, con playas de río y producción cacaotera.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img"><img src="img/quinsaloma.jpg" alt="Cantón Quinsaloma" onerror="this.parentElement.classList.add('sin-img')"></div>
+        <div class="card-body">
+          <h3>Quinsaloma</h3>
+          <span class="etiqueta">Cabecera: Quinsaloma</span>
+          <p>El cantón más joven de la provincia, en el límite con Bolívar y Cotopaxi, rodeado de naturaleza.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== TURISMO ===================== -->
+  <section id="turismo" class="seccion">
+    <h2 class="titulo">Turismo</h2>
+    <p class="subtitulo">Naturaleza, ríos, historia y tradición montubia</p>
+
+    <div class="turismo-grid">
+      <div class="lugar grande">
+        <img src="img/abras-mantequilla.jpg" alt="Humedal Abras de Mantequilla" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Humedal Abras de Mantequilla</h3>
+          <p>Sitio Ramsar de importancia internacional, hogar de cientos de especies de aves. Entre Vinces, Baba y Puebloviejo.</p>
+        </div>
+      </div>
+      <div class="lugar">
+        <img src="img/torre-eiffel-vinces.jpg" alt="Torre Eiffel de Vinces" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Torre Eiffel de Vinces</h3>
+          <p>Símbolo del “París chiquito”, junto al malecón del río Vinces.</p>
+        </div>
+      </div>
+      <div class="lugar">
+        <img src="img/malecon-babahoyo.jpg" alt="Malecón de Babahoyo" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Malecón de Babahoyo</h3>
+          <p>Paseo a orillas del río, ideal para ver los atardeceres y las regatas.</p>
+        </div>
+      </div>
+      <div class="lugar">
+        <img src="img/hacienda-la-virginia.jpg" alt="Hacienda La Virginia de Olmedo" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Hacienda La Virginia</h3>
+          <p>Casa donde Olmedo escribió el “Canto a Bolívar”, en Babahoyo.</p>
+        </div>
+      </div>
+      <div class="lugar">
+        <img src="img/jauneche.jpg" alt="Bosque Protector Jauneche" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Bosque Protector Jauneche</h3>
+          <p>Uno de los últimos remanentes de bosque tropical seco-húmedo de la provincia.</p>
+        </div>
+      </div>
+      <div class="lugar">
+        <img src="img/rodeo-montubio.jpg" alt="Rodeo montubio" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Rodeo Montubio</h3>
+          <p>Tradición que se celebra cada 12 de octubre: destreza a caballo, amorfinos y música.</p>
+        </div>
+      </div>
+      <div class="lugar ancho">
+        <img src="img/rio-quevedo.jpg" alt="Río Quevedo" onerror="this.parentElement.classList.add('sin-img')">
+        <div class="lugar-info">
+          <h3>Río y Malecón de Quevedo</h3>
+          <p>Paseos, balnearios de agua dulce y la vida comercial de la ciudad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GASTRONOMÍA ===================== -->
+  <section id="gastronomia" class="seccion fondo-claro">
+    <h2 class="titulo">Gastronomía</h2>
+    <p class="subtitulo">Sabores de la cocina montubia</p>
+    <div class="platos">
+      <div class="plato">
+        <img src="img/bollo.jpg" alt="Bollo de pescado" onerror="this.parentElement.classList.add('sin-img')">
+        <h4>Bollo de pescado</h4>
+        <p>Plátano verde, maní y pescado de río envueltos en hoja de plátano.</p>
+      </div>
+      <div class="plato">
+        <img src="img/caldo-bagre.jpg" alt="Caldo de bagre" onerror="this.parentElement.classList.add('sin-img')">
+        <h4>Caldo de bagre</h4>
+        <p>Sopa tradicional con bagre de río, yuca, verde y culantro.</p>
+      </div>
+      <div class="plato">
+        <img src="img/seco-gallina.jpg" alt="Seco de gallina criolla" onerror="this.parentElement.classList.add('sin-img')">
+        <h4>Seco de gallina criolla</h4>
+        <p>Gallina de campo guisada, acompañada de arroz y maduro.</p>
+      </div>
+      <div class="plato">
+        <img src="img/chifa.jpg" alt="Chifa de Quevedo" onerror="this.parentElement.classList.add('sin-img')">
+        <h4>Chifa quevedeño</h4>
+        <p>Herencia de la comunidad china asentada en Quevedo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AUTORIDADES ===================== -->
+  <section id="autoridades" class="seccion">
+    <h2 class="titulo">Autoridades</h2>
+    <p class="subtitulo">Período 2023 – 2027 (posesionados el 14 de mayo de 2023)</p>
+
+    <div class="autoridades-prov">
+      <div class="autoridad destacada">
+        <div class="foto"><img src="img/prefecto.jpg" alt="Prefecto Johnny Terán" onerror="this.parentElement.classList.add('sin-img')"><span>JT</span></div>
+        <h3>Johnny Terán Salcedo</h3>
+        <p class="cargo">Prefecto de Los Ríos</p>
+      </div>
+      <div class="autoridad destacada">
+        <div class="foto"><img src="img/viceprefecta.jpg" alt="Viceprefecta Mayra Díaz" onerror="this.parentElement.classList.add('sin-img')"><span>MD</span></div>
+        <h3>Mayra Díaz</h3>
+        <p class="cargo">Viceprefecta de Los Ríos</p>
+      </div>
+      <div class="autoridad destacada">
+        <div class="foto"><img src="img/gobernador.jpg" alt="Gobernación de Los Ríos" onerror="this.parentElement.classList.add('sin-img')"><span>GR</span></div>
+        <h3>Andrés Rizzo Bajaña</h3>
+        <p class="cargo">Gobernador (encargado, desde agosto 2026)</p>
+      </div>
+    </div>
+
+    <h3 class="titulo-tabla">Alcaldes cantonales</h3>
+    <div class="tabla-contenedor">
+      <table>
+        <thead>
+          <tr><th>Cantón</th><th>Alcalde / Alcaldesa</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Babahoyo</td><td>Gustavo Barquet Marún</td></tr>
+          <tr><td>Baba</td><td>Shirley Melo Olvera</td></tr>
+          <tr><td>Buena Fe</td><td>Diana Anchundia Yépez</td></tr>
+          <tr><td>Mocache</td><td>Yenny Domínguez</td></tr>
+          <tr><td>Montalvo</td><td>Eduardo Troncoso Rosas</td></tr>
+          <tr><td>Palenque</td><td>Jordy Carriel Navarrete</td></tr>
+          <tr><td>Puebloviejo</td><td>Elsy Ospina Garcés</td></tr>
+          <tr><td>Quevedo</td><td>Alexis Matute Matute</td></tr>
+          <tr><td>Quinsaloma</td><td>Cristhian Aldaz González</td></tr>
+          <tr><td>Urdaneta</td><td>Amada Zambrano Rodríguez</td></tr>
+          <tr><td>Valencia</td><td>Daniel Macías López</td></tr>
+          <tr><td>Ventanas</td><td>Carlos Carriel Abad</td></tr>
+          <tr><td>Vinces</td><td>Alfonso Montalván Cerezo</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="nota">* Datos según resultados del CNE de las elecciones seccionales de 2023. Verificar cambios recientes en las páginas oficiales de cada GAD.</p>
+  </section>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer>
+    <img src="img/escudo.jpg" alt="Escudo de Los Ríos" class="escudo-footer" onerror="this.style.display='none'">
+<p>Provincia de Los Ríos — Ecuador</p>
+    <p>Proyecto escolar · Hecho con HTML y CSS</p>
+    <a href="#inicio">↑ Volver arriba</a>
+  </footer>
+
+</body>
+</html>
